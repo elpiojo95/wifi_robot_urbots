@@ -20,10 +20,7 @@ Kinematics kinematics(MOTOR_MAX_RPM, WHEEL_DIAMETER, FR_WHEEL_DISTANCE, LR_WHEEL
 char ssid[] = "URBots_2G";
 char password[] = "URB@ts_interna";
 
-/*
-char ssid[] = "DISCOVERY";
-char password[] = "26bahia1507";
-*/
+
 unsigned char bytes[4];
 
 IPAddress server(192,168,0,25);
